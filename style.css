@@ -1,0 +1,29 @@
+.card{
+    overflow: hidden;
+}
+.card-img, .card-img-top{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+
+.blog-list .list-blog-title{
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    width: 76%;
+}
+
+.blog-list .list-blog-decription{
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    width: 90%;
+}
